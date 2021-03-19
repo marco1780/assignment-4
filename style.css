@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -10,19 +12,9 @@ body {
 
 p {
   color: #fff;
-}
-.protagonist {
-  padding: 120px;
-  z-index: 1;
-  position: sticky;
-  top: 0;
-  left: 300px;
-  border-radius: 50%;
-  filter: hue-rotate(0deg);
-  transition: transform 2s;
-}
-.flip {
-  transform: scaleX(-1);
+  font-size: 100px;
+  font-family:"Montserrat";
+  margin-top: 20%;
 }
 
 main {
