@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
+  font-family: 'Montserrat';
+  font-size: 100px;
+  background-color:#051C2C;
+  color: white;
 }
+
 .slide {
   width: 100vw;
   height: 100vh;
@@ -39,17 +47,47 @@ body {
 }
 
 .one {
-  background: #efdefe;
+  background: #212738;
+  font-family: 'Montserrat';
+  animation: text 10s 1;
 }
 .two {
-  background: #a3f3d3;
+  background: #F97068;
+  animation: text 10s 1;
 }
 .three {
-  background: #0bbaa0;
+  background: #EDF2EF;
+  animation: text 10s 1;
 }
 .four {
-  background: #00dfdf;
+  background: #57C4E5;
+  animation: text 10s 1;
 }
 .center {
   text-align: center;
 }
+
+
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+}
+
+@keyframes two {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 100px;
+    margin-bottom: -40px;
+  }
+}
+
+
